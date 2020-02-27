@@ -16,8 +16,8 @@ def flatten_a_o_a(aoa)
     end
     i += 1
   end
-
-  p result
+  binding.pry
+  result
 end
 
 #------------------------------------------------------
