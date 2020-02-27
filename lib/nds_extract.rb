@@ -17,7 +17,7 @@ def flatten_a_o_a(aoa)
     i += 1
   end
 
-  result
+  p result
 end
 
 #------------------------------------------------------
