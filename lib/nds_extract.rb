@@ -64,7 +64,7 @@ def movies_with_director_key(name, movies_collection)
   
 end
 
-#----------------------------------------------------------------------
+#------------------------------------------------------------
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
   # return a Hash that includes the total worldwide_gross of all the movies from
@@ -95,11 +95,9 @@ def gross_per_studio(collection)
     
     row_index += 1 
   end 
-<<<<<<< HEAD
   hash
-=======
+
   p hash
->>>>>>> 807eeaf0b6268874653244d55aeba4e4b2675bfd
 end
 #----------------------------------------------------------------------
 def movies_with_directors_set(source)
@@ -119,7 +117,6 @@ def movies_with_directors_set(source)
   row_index = 0 
   
   while row_index < source.count do 
-<<<<<<< HEAD
     # source[row_index][:movies][:director_name] = source[row_index][:name]
     
     
@@ -130,8 +127,7 @@ def movies_with_directors_set(source)
   new_array
 end
 
-#----------------------------------------------------------------------
-=======
+#-------------------------------------------------------------
     # source[row_index][:director_name] = source[row_index][:name]
     
     
@@ -142,30 +138,6 @@ end
 end
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 807eeaf0b6268874653244d55aeba4e4b2675bfd
 
 
 # ----------------    End of Your Code Region --------------------
