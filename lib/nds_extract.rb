@@ -21,6 +21,7 @@ def flatten_a_o_a(aoa)
 end
 
 #------------------------------------------------------
+
 def movie_with_director_name(director_name, movie_data)
   { 
     :title => movie_data[:title],
@@ -31,6 +32,7 @@ def movie_with_director_name(director_name, movie_data)
   }
   
 end
+
 #------------------------------------------------------
 
 # Your code after this point
@@ -63,6 +65,7 @@ def movies_with_director_key(name, movies_collection)
 end
 
 #------------------------------------------------------------
+
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
   # return a Hash that includes the total worldwide_gross of all the movies from
@@ -95,7 +98,9 @@ def gross_per_studio(collection)
   end 
   hash
 end
-#----------------------------------------------------------------------
+
+#------------------------------------------------------------
+
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
@@ -113,10 +118,6 @@ def movies_with_directors_set(source)
   row_index = 0 
   
   while row_index < source.count do 
-    # source[row_index][:movies][:director_name] = source[row_index][:name]
-    
-    
-    # new_array << source[row_index][:movies]
     new_array << movies_with_director_key(source[row_index][:name], source[row_index][:movies])
     row_index += 1 
   end
@@ -126,7 +127,7 @@ end
 
 
 
-# ----------------    End of Your Code Region
+# ----------------    End of Your Code Region ----------------
 # Don't edit the following code! Make the methods above work with this method
 # call code. You'll have to "see-saw" to get this to work!
 
