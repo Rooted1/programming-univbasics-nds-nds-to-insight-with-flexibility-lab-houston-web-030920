@@ -29,7 +29,7 @@ def movie_with_director_name(director_name, movie_data)
     :studio => movie_data[:studio],
     :director_name => director_name
   }
-  binding.pry
+  
 end
 #------------------------------------------------------
 
@@ -59,7 +59,7 @@ def movies_with_director_key(name, movies_collection)
   end 
   
   movies_collection
-  
+  binding.pry
 end
 
 #------------------------------------------------------------
