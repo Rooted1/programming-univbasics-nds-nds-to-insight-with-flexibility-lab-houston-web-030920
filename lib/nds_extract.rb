@@ -59,9 +59,6 @@ def movies_with_director_key(name, movies_collection)
   
   movies_collection
   
-  
-  
-  
 end
 
 #------------------------------------------------------------
@@ -96,8 +93,6 @@ def gross_per_studio(collection)
     row_index += 1 
   end 
   hash
-
-  p hash
 end
 #----------------------------------------------------------------------
 def movies_with_directors_set(source)
@@ -127,20 +122,10 @@ def movies_with_directors_set(source)
   new_array
 end
 
-#-------------------------------------------------------------
-    # source[row_index][:director_name] = source[row_index][:name]
-    
-    
-    new_array << movies_with_director_key(source[row_index][:director_name], source[row_index][:name])
-    row_index += 1 
-  end
-  p new_array
-end
 
 
 
-
-# ----------------    End of Your Code Region --------------------
+# ----------------    End of Your Code Region
 # Don't edit the following code! Make the methods above work with this method
 # call code. You'll have to "see-saw" to get this to work!
 
